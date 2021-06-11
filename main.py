@@ -1,7 +1,7 @@
 import os
 import telebot
 
-my_secret = os.environ['API_KEY']
+my_secret = os.getenv('API_KEY')
 bot = telebot.TeleBot(my_secret)
 
 
