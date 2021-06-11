@@ -1,7 +1,7 @@
 import os
 import telebot
 
-my_secret = os.getenv('API_KEY')
+my_secret = "1695299416:AAFAb8eV86QcwU6mZx3spT_SgGcC9XGWAJw"
 bot = telebot.TeleBot(my_secret)
 
 
