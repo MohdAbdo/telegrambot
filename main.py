@@ -12,23 +12,23 @@ def start(message):
 
 @bot.message_handler(commands=['hello'])
 def hello(message):
-	bot.send_message(message.chat.id, "Hello")
+	bot.send_message(message.chat.id, "مرحبا بك")
 	
 @bot.message_handler(commands=['contacts'])
 def contacts(message):
-  bot.reply_to(message, "Mohamed Abdelrahman \n Email: aljemabi@uofg.edu.sd")
+  bot.reply_to(message, "FMCS 2021 \n http://fmcs.uofg.edu.sd \n https://t.me/aljemabi")
   
 @bot.message_handler(commands=['regdaleel'])
 def regdaleel(message):
-  bot.reply_to(message, "http://registration.uofg.edu.sd/pdf/Students-ERegGuide.pdf")
+  bot.reply_to(message, "من فضلك قم بتحميله من هذا الرابط \n http://registration.uofg.edu.sd/pdf/Students-ERegGuide.pdf")
 
 @bot.message_handler(commands= ['daleel'])
 def daleel(message):
-  bot.reply_to(message, "http://registration.uofg.edu.sd/pdf/studentdalil42.pdf")
+  bot.reply_to(message, "من فضلك قم بتحميله من هذا الرابط \n http://registration.uofg.edu.sd/pdf/studentdalil42.pdf")
 
 @bot.message_handler(commands= ['learndaleel'])
 def learndaleel(message):
-  bot.reply_to(message , "http://registration.uofg.edu.sd/pdf/Student%20ManualMoodle.pdf")
+  bot.reply_to(message , "من فضلك قم بتحميله من هذا الرابط \n http://registration.uofg.edu.sd/pdf/Student%20ManualMoodle.pdf")
  
 @bot.message_handler(commands=['studentapp'])
 def studentapp(message):
